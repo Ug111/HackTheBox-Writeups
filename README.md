@@ -1,13 +1,13 @@
 # HackTheBox-Writeups
 Machine:Fawn
 Difficulty: Very Easy
-Category: FTP Eploitation
+Category: FTP Exploitation
 XP Earned: 150
 Pwn Date: 13 July 2026
 
 What i did:
 Ran Nmap to discover open FTP port 21
-Tested anaonymous FTP login
+Tested anonymous FTP login
 Successfully authenticated and retrieved the flag
 
 What i learned:
