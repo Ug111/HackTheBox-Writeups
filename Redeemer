@@ -1,0 +1,57 @@
+Redeemer-Writeuo.md
+#Redeemer - Hack The Box Writeup
+# Machine Information
+- Machine: Redeemer
+- Platform: Hack The Box
+- Difficulty: Very Easy
+- Category: Redis Enumeration
+
+---
+
+## Skills Practiced
+
+- Network Enumeration
+- Redis Enumeration
+- Command-Line Navigation
+- Information Gathering
+- Database Security Awareness
+
+---
+
+## Reconnaissance
+### Nmap Scan
+Command:
+```bash
+nmap -sV <Target-IP>
+6379/tcp open redis
+
+## Step 2: Document the Enumerattion
+Include the commands you actually  ran 
+For example:
+```bash
+redis-cli -h <Target-IP>
+INFO
+KEYS *
+GET flag
+
+## Business Perspective
+This machine demonstrates  the risk of exposing database to the internet without  authentication
+For an organization, a misconfigured Redis  server could result  in:
+- Unauthorized access to sensitive information 
+- Data modification or deletion
+- Business disruption
+- Compliance violations
+- Reputational damage
+
+Organizations should:
+
+- Restrict database access to trusted networks 
+- Require authenticatioon
+- Monitor exposed services
+- Conduct regular vulnerability assess
+
+## Lessons Learned
+- Always enumerate before exploiting.
+- Exposed services should never be assured secure.
+- Small configuration mistakes can have significant security  consequences.
+- Understanding service beaviour is as important as using exploitation tools.
