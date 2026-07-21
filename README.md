@@ -1,3 +1,20 @@
+# Hack The Box Writeups
+Welcome to my Hack The Box portfolio.
+This respository documents my p[ractical cybersecurity labs, focusing onenumeration, exploitation, post -exploitation, and defensive lessons learned.
+
+## Objectives
+- Develop hands-on penetration testing skills
+- Improve enumeration methodolgy
+- Document lessons learned
+- Translate technical findings into business security insights
+
+## Machines Completed 
+| Machine | Difficulty | Skills |
+|---------|------------|--------|
+| Fawn    | Very Easy  | FTP    |
+| Dancing | Very Easy  | SMB    | 
+| Redeemer| Very Eady  | Redis  |
+
 # HackTheBox-Writeups
 Machine:Fawn
 Difficulty: Very Easy
