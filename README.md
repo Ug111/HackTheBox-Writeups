@@ -21,9 +21,9 @@ The purpose of this respository is to:
 - Build a public cyberseciurity portfolio
 - Demonstrate continous learning
 
-Machine      Difficulty        Skills
-Fawn         Very Easy         FTP E numeration
-Dancing      Very Easy         SMB Enumeration
-Paperwork    Easy              Web Enumeration
-Redeemer     Very Easy         Redis
+| Machine     | Difficulty       | Skills
+| Fawn        | Very Easy        | FTP E numeration
+| Dancing     | Very Easy        | SMB Enumeration
+| Paperwork   | Easy             | Web Enumeration
+| Redeemer    | Very Easy      | Redis
 
