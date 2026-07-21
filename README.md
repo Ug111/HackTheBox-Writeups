@@ -27,3 +27,7 @@ The purpose of this respository is to:
 | Paperwork   | Easy          -- | Web Enumeration   |
 | Redeemer    | Very Easy    --  | Redis             |
 
+
+ This repository is intended  for educational purposes.
+ All labs were completed in authorized environments such as Hack The Box.
+ No testing was performed against systems without permission.
